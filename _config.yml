@@ -1,43 +1,51 @@
-name: farpras
-description: Just like the others, but better!
-meta_description: "Just like the others, but better!"
+# Site Info
+title:              "farpras"
+description:        "Just like the others, but better!"
+# google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
+# google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 
-aboutPage: true
+# Author Info
+author_name:        "farpras" # Your name here
+author_email:       farpras28@outlook.com # Your email here
+author_gravatar:    756faa0f36faffc58e5d0f520efcd0dd # Your Gravatar md5 hash here for logo
+twitter_username:   farpras # Your Twitter username here
+github_username:    farpras # Your GitHub username here
 
-markdown: kramdown
-highlighter: rouge
+# Site Settings
+baseurl:            "http://notes.farpras.xyz" # Base URL must end WITHOUT a slash, default: ""
+permalink:          /notes/:categories/:title # Post permalink
+timezone:           Asia/Jakarta # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true  # enables support for mathjax - set to false to disable
 
-gems: [jekyll-paginate]
-paginate: 20
-baseurl: /
-domain_name: 'http://blog.farpras.xyz'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus: true
-disqus_shortname: 'farpras28'
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
 
-# Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'farpras'
-authorTwitter:  'farpras'
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+gems:
+  - jekyll-sitemap
 
-permalink:       /:year/:title/
+
 
 defaults:
-    -
-        scope:
-            path: "" # empty string for all files
-            type: pages
-        values:
-            layout: default
-    -
-        scope:
-            path: "" # empty string for all files
-            type: posts
-        values:
-            layout: post
-    -
-        scope:
-            path: ""
-            type: drafts
-        values:
-            layout: post
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
