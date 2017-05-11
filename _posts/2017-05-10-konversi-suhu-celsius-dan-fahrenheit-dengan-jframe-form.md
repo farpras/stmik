@@ -19,7 +19,7 @@ Berikut ini adalah screenshot projects pada NetBeans.
 
 Flowchart:
 
-<img src="http://blog.farpras.xyz/uploads/konversi_suhu.png" alt=""/>
+<img src="http://blog.farpras.xyz/uploads/konversi_suhu.png" width="100%" alt=""/>
 
 PseudoCode:
 ```
