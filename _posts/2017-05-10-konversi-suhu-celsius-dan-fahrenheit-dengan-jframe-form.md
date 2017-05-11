@@ -22,7 +22,7 @@ Flowchart:
 <img class="alignnone wp-image-75 size-full" src="http://blog.farpras.xyz/uploads/konversi_suhu.png" alt=""/>
 
 PseudoCode:
-{% highlight ruby %}
+```
 1. Program Konversi Suhu Celsius dan Fahrenheit.
 {
 Mengkonversi nilai suhu Celsius ke Fahrenheit ataupun sebaliknya.
@@ -37,10 +37,10 @@ Read (c, f)
 hasilCelsius = (f-32)*5/9
 hasilFahrenheit = (c * (9/5)) + 32
 Write (hasilCelsius, hasilFahrenheit)
-{% endhighlight %}
+```
 
 Source Code project:
-{% highlight ruby %}
+```
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -300,8 +300,7 @@ public class KonversiSuhuFrame extends javax.swing.JFrame {
     private javax.swing.JTextField txtHasilF;
     // End of variables declaration//GEN-END:variables
 }
-
-{% endhighlight %}
+```
 
 Atau source code NetBeans project bisa didownload disini <a href="https://drive.google.com/file/d/0B3guqsE8r2uEQnRfa3YzNkp3Szg/view?usp=sharing">https://drive.google.com/file/d/0B3guqsE8r2uEQnRfa3YzNkp3Szg/view?usp=sharing</a>
 
