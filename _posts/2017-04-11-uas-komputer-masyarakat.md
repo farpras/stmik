@@ -3,15 +3,15 @@ title:  "UAS - Komputer & Masyarakat"
 date:   2017-04-11 13:22:00
 description: Soal UAS Komputer & Masyarakat
 ---
-Nama: <strong>Faridl Nur Prastya W.</strong>
-NIM: <strong>161011400304</strong>
-Kelas: <strong>02TPLE003</strong>
-Jurusan: <strong>Teknik Informatika</strong>
-Mata Kuliah: <strong>Komputer dan Masyarakat</strong>
+Nama: <strong>Faridl Nur Prastya W.</strong><br/>
+NIM: <strong>161011400304</strong><br/>
+Kelas: <strong>02TPLE003</strong><br/>
+Jurusan: <strong>Teknik Informatika</strong><br/>
+Mata Kuliah: <strong>Komputer dan Masyarakat</strong><br/>
 Dosen: <strong>Yan Mitha Djaksana, M.Kom</strong>
 
 <strong>Soal:</strong>
-<ol>
+<ol type="1">
  	<li>Jelaskan perbedaan Hacker dan Cracker!</li>
  	<li>Jelaskan yang dimaksud cyber crime beserta contoh yang pernah terjadi di masyarakat!</li>
  	<li>Jelaskan yang dimaksud dengan E-BUSINESS serta perbedaanya dengan E-COMMERCE!</li>
@@ -27,7 +27,7 @@ Dosen: <strong>Yan Mitha Djaksana, M.Kom</strong>
 </li>
 </ol>
 <strong>Jawaban:</strong>
-<ol>
+<ol type="1">
  	<li><strong>Hacker</strong>: Seorang atau sekelompok orang yang menguasai dalam bidang komputer dan menggunakan keahliannya untuk menganalisa kelemahan suatu sistem tanpa merusak aslinya. Hacker juga memiliki komunitas yang jelas, serta etika dan bertanggung jawab atas apa yang dilakukannya.
 <strong>Cracker</strong>: Seorang atau sekelompok orang yang menggunakan keahliannya dalam bidang komputer untuk kepentingannya sendiri dan merugikan orang lain. Cracker bersifat tertutup atau tersembunya dan tidak bertanggung jawab atas perbuatannya.</li>
  	<li><strong>Cyber crime</strong> adalah tindak kriminal yang dilakukan di dunia maya dengan menggunakan teknologi komputer dan internet. <strong>Contoh</strong> cyber crime di masyarakat misalnya:
