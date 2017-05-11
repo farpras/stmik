@@ -1,6 +1,6 @@
 ---
-title: UAS - Komputer & Masyarakat
-date: 2017-04-11 13:22:00
+title:  "UAS - Komputer & Masyarakat"
+date:   2017-04-11 13:22:00
 description: Soal UAS Komputer & Masyarakat
 ---
 Nama: <strong>Faridl Nur Prastya W.</strong>
