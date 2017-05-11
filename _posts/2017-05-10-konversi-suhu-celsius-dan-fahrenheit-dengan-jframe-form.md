@@ -1,7 +1,8 @@
 ---
 title: Konversi Suhu Celsius dan Fahrenheit dengan JFrame Form
-date: 2017-05-10 14:31:00
-description: UTS Algoritma dan Pemrograman 2
+updated: 2017-05-10 14:31
+categories: Tugas
+comments: true
 ---
 Assalamu'alaikum wr. wb.
 

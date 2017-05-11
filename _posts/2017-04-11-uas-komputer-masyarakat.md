@@ -1,7 +1,8 @@
 ---
-title:  "UAS - Komputer & Masyarakat"
-date:   2017-04-11 13:22:00
-description: Soal UAS Komputer & Masyarakat
+title:  UAS - Komputer & Masyarakat
+updated:   2017-04-11 13:22
+categories: Tugas
+comments: true
 ---
 Nama: <strong>Faridl Nur Prastya W.</strong><br/>
 NIM: <strong>161011400304</strong><br/>
