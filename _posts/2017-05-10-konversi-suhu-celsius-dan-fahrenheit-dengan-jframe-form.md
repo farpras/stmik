@@ -8,18 +8,18 @@ Assalamu'alaikum wr. wb.
 Berikut ini adalah penjelasan tentang program Konversi Suhu Celsius dan Fahrenheit sederhana yang saya buat menggunakan JFrame Form pada NetBeans IDE.
 
 Ini adalah screenshot program saat dijalankan.
-<img class="alignnone wp-image-68 size-full" src="http://blog.farpras.xyz/uploads/ss1.png" alt=""/>
+<img src="http://blog.farpras.xyz/uploads/ss1.png" alt=""/>
 
 Cara kerja program tersebut adalah kita cukup memasukkan nilai suhu yang akan dikonversi pada Text Field atas baik Celsius atau Fahrenheit. Lalu klik "Konversi" maka hasil konversi akan muncul pada Text Field bawah secara otomatis.
 
 Berikut ini adalah screenshot projects pada NetBeans.
-<img class="alignnone wp-image-69 size-full" src="http://blog.farpras.xyz/uploads/ss2.png" alt=""/>
+<img src="http://blog.farpras.xyz/uploads/ss2.png" alt=""/>
 
-<img class="alignnone wp-image-70 size-full" src="http://blog.farpras.xyz/uploads/ss3.png" alt=""/>
+<img src="http://blog.farpras.xyz/uploads/ss3.png" alt=""/>
 
 Flowchart:
 
-<img class="alignnone wp-image-75 size-full" src="http://blog.farpras.xyz/uploads/konversi_suhu.png" alt=""/>
+<img src="http://blog.farpras.xyz/uploads/konversi_suhu.png" alt=""/>
 
 PseudoCode:
 ```
