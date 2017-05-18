@@ -13,7 +13,7 @@ Screenshot program saat dijalankan:
 
 Cara kerja atau menggunakan program ini sangat mudah, kita cukup memilih jenis suhu apa yang akan dikonversikan pada radio button, dan jenis suhu tujuan pada combo box. Lalu, masukkan nilai awal suhu dan klik "Konversi". Maka secara otomatis hasil akan muncul pada text field bawah.
 
-Untuk membuat program tersebut, pertama pastikan NetBeans IDE sudah terinstall, lalu buka dan pilih **File -> New Project**.
+Untuk membuat program tersebut, pertama pastikan NetBeans IDE sudah terinstall, lalu buka dan pilih **File -> New Project**.<br/>
 <img src="http://blog.farpras.xyz/uploads/sstutor1.png"/>
 
 Pada window ini pilih kategori **Java -> Java Application** lalu klik Next.
