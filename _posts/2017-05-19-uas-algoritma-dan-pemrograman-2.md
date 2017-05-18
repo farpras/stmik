@@ -34,7 +34,7 @@ Berikan nama klass lalu klik Finish.
 Jika tidak ada kesalahan, anda akan mendapatkan tampilan seperti ini.
 <img src="http://blog.farpras.xyz/uploads/sstutor7.png"/>
 
-Pada tab **Design" buat tampilan menjadi seperti ini menggunakan objek-objek pada palette.
+Pada tab **Design** buat tampilan menjadi seperti ini menggunakan objek-objek pada palette.
 <img src="http://blog.farpras.xyz/uploads/sstutor8.png"/>
 Objek yang digunakan adalah:
 - Menu Bar
