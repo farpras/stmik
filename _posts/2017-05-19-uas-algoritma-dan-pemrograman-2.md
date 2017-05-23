@@ -8,43 +8,55 @@ Assalamu'alaikum wr. wb.
 
 Berikut ini adalah program Konversi Suhu sederhana yang saya buat menggunakan JFrame Form pada NetBeans IDE.
 
+Cara kerja atau menggunakan program ini sangat mudah, kita cukup memilih jenis suhu apa yang akan dikonversikan pada radio button, dan jenis suhu tujuan pada combo box. Lalu, masukkan nilai awal suhu dan klik "Konversi". Maka secara otomatis hasil akan muncul pada text field bawah.
+
 Screenshot program saat dijalankan:
 <img src="http://blog.farpras.xyz/uploads/sstutor9.png"/>
 
-Cara kerja atau menggunakan program ini sangat mudah, kita cukup memilih jenis suhu apa yang akan dikonversikan pada radio button, dan jenis suhu tujuan pada combo box. Lalu, masukkan nilai awal suhu dan klik "Konversi". Maka secara otomatis hasil akan muncul pada text field bawah.
+Lalu ini adalah fungsi exit dan Dialog Box menggunakan JOptionPane:
+<img src="http://blog.farpras.xyz/uploads/joptionpane_exit.png"/>
 
-Untuk membuat program tersebut, pertama pastikan NetBeans IDE sudah terinstall, lalu buka dan pilih **File -> New Project**.<br/>
-<img src="http://blog.farpras.xyz/uploads/sstutor1.png"/>
+Dan ini juga JOptionPane yang muncul ketika user belum memilih suhu tujuan konversi:
+<img src="http://blog.farpras.xyz/uploads/joptionpane_error.png"/>
 
-Pada window ini pilih kategori **Java -> Java Application** lalu klik Next.
-<img src="http://blog.farpras.xyz/uploads/sstutor2.png"/>
+PseudoCode:
+```
+1. Program Konversi Suhu.
+{
+Mengkonversi nilai suhu Celsius, Fahrenheit dan Kelvin.
+}
+2. Deklarasi
+text : String
+tx : String
+cel : Float
+fahr : Float
+kel : Float
+txtHasil : String
+3. Deskripsi
+Read (text, tx, cel, fahr, kel)
+// Cel -> Fahr
+fahr = (cel*1.8)+32
+txtHasil = fahr
+// Cel -> Kel
+kel = cel+273.15
+txtHasil = kel
+// Fahr -> Cel
+cel = (fahr - 32) / 1.8
+txtHasil = cel
+// Fahr -> Kel
+kel = (fahr + 459.67) * 5/9
+txtHasil = kel
+// Kel -> Cel
+cel = kel - 273.15
+txtHasil = cel
+// Kel -> Fahr
+fahr = kel * 9/5 - 459.67
+txtHasil = fahr
 
-Lalu masukkan nama project (1) dan klik Finish.
-<img src="http://blog.farpras.xyz/uploads/sstutor3.png"/>
+Write (txtHasil)
+```
 
-Setelah itu, klik **File -> New File**.
-<img src="http://blog.farpras.xyz/uploads/sstutor4.png"/>
-
-Pada window ini, pilih **Swing GUI Forms -> JFrame Form**.
-<img src="http://blog.farpras.xyz/uploads/sstutor5.png"/>
-
-Berikan nama klass lalu klik Finish.
-<img src="http://blog.farpras.xyz/uploads/sstutor6.png"/>
-
-Jika tidak ada kesalahan, anda akan mendapatkan tampilan seperti ini.
-<img src="http://blog.farpras.xyz/uploads/sstutor7.png"/>
-
-Pada tab **Design** buat tampilan menjadi seperti ini menggunakan objek-objek pada palette.
-<img src="http://blog.farpras.xyz/uploads/sstutor8.png"/>
-Objek yang digunakan adalah:
-- Menu Bar
-- Panel
-- Label
-- Radio Button
-- Combo Box
-- Text Field
-
-Lalu klik **Source** tab, dan masukkan source code berikut:
+**Source Code:**
 ```
 /*
  * To change this license header, choose License Headers in Project Properties.
