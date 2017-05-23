@@ -416,7 +416,6 @@ public class TempConverterGUI extends javax.swing.JFrame {
 
 ```
 
-Jika tidak ada kesalahan, jalankan program dengan Shift+F6.
-Source code NetBeans Project bisa didownload disini: <a href="https://drive.google.com/file/d/0B3guqsE8r2uEVmNkM2N4dm05a0k/view?usp=sharing">https://drive.google.com/file/d/0B3guqsE8r2uEVmNkM2N4dm05a0k/view?usp=sharing</a>
+Source code NetBeans Project bisa didownload disini: <a href="https://drive.google.com/file/d/0B3guqsE8r2uENERqdGdsc3dHc1E/view?usp=sharing">https://drive.google.com/file/d/0B3guqsE8r2uENERqdGdsc3dHc1E/view?usp=sharing</a>
 
 Terima kasih.
